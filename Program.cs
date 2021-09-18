@@ -7,7 +7,7 @@ namespace GrausCF
         static void Main(string[] args)
         {
             
-            double c = 0;
+             double c = 0;
             double f = 0;
 
             Console.Write("Entre com a temperatura na escala celsius: ");
@@ -17,7 +17,7 @@ namespace GrausCF
             f = (double)  c * 18 / 10 + 32;
 
             Console.Write("Temperatura convertida em fahrenheit  é : " + f);
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
